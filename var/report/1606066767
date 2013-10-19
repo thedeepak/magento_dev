@@ -1,0 +1,8 @@
+a:5:{i:0;s:51:"Controller file was loaded but class does not exist";i:1;s:1026:"#0 E:\WWW\magento_magento\dev\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(326): Mage::exception('Mage_Core', 'Controller file...')
+#1 E:\WWW\magento_magento\dev\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(293): Mage_Core_Controller_Varien_Router_Standard->_includeControllerClass('E:\WWW\magento_...', 'Magentotutorial...')
+#2 E:\WWW\magento_magento\dev\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(196): Mage_Core_Controller_Varien_Router_Standard->_validateControllerClassName('Magentotutorial...', 'messages')
+#3 E:\WWW\magento_magento\dev\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#4 E:\WWW\magento_magento\dev\app\code\core\Mage\Core\Model\App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#5 E:\WWW\magento_magento\dev\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#6 E:\WWW\magento_magento\dev\index.php(87): Mage::run('', 'store')
+#7 {main}";s:3:"url";s:48:"/magento_magento/dev/helloworld/messages/goodbye";s:11:"script_name";s:30:"/magento_magento/dev/index.php";s:4:"skin";s:7:"default";}
