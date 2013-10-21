@@ -1,0 +1,19 @@
+2013-10-21T11:31:13+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 26: parser error : Comment not terminated 
+&lt;!-- ...   in E:\WWW\magento_magento\dev\lib\Varien\Simplexml\Config.php on line 510
+2013-10-21T11:31:13+00:00 ERR (3): Warning: simplexml_load_string():         &lt;!-- ... ---&gt;  in E:\WWW\magento_magento\dev\lib\Varien\Simplexml\Config.php on line 510
+2013-10-21T11:31:13+00:00 ERR (3): Warning: simplexml_load_string():                  ^  in E:\WWW\magento_magento\dev\lib\Varien\Simplexml\Config.php on line 510
+2013-10-21T11:31:13+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 36: parser error : Comment not terminated 
+&lt;!-- ... ---&gt;
+        &lt;weblog_resource&gt;
+            &lt;c  in E:\WWW\magento_magento\dev\lib\Varien\Simplexml\Config.php on line 510
+2013-10-21T11:31:13+00:00 ERR (3): Warning: simplexml_load_string():     &lt;!-- ... --&gt;  in E:\WWW\magento_magento\dev\lib\Varien\Simplexml\Config.php on line 510
+2013-10-21T11:31:13+00:00 ERR (3): Warning: simplexml_load_string():       ^  in E:\WWW\magento_magento\dev\lib\Varien\Simplexml\Config.php on line 510
+2013-10-21T11:31:13+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 37: parser error : Opening and ending tag mismatch: models line 25 and global  in E:\WWW\magento_magento\dev\lib\Varien\Simplexml\Config.php on line 510
+2013-10-21T11:31:13+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/global&gt;   in E:\WWW\magento_magento\dev\lib\Varien\Simplexml\Config.php on line 510
+2013-10-21T11:31:13+00:00 ERR (3): Warning: simplexml_load_string():          ^  in E:\WWW\magento_magento\dev\lib\Varien\Simplexml\Config.php on line 510
+2013-10-21T11:31:13+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 49: parser error : Opening and ending tag mismatch: global line 7 and config  in E:\WWW\magento_magento\dev\lib\Varien\Simplexml\Config.php on line 510
+2013-10-21T11:31:13+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;   in E:\WWW\magento_magento\dev\lib\Varien\Simplexml\Config.php on line 510
+2013-10-21T11:31:13+00:00 ERR (3): Warning: simplexml_load_string():          ^  in E:\WWW\magento_magento\dev\lib\Varien\Simplexml\Config.php on line 510
+2013-10-21T11:31:13+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 49: parser error : Premature end of data in tag config line 1  in E:\WWW\magento_magento\dev\lib\Varien\Simplexml\Config.php on line 510
+2013-10-21T11:31:13+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt;   in E:\WWW\magento_magento\dev\lib\Varien\Simplexml\Config.php on line 510
+2013-10-21T11:31:13+00:00 ERR (3): Warning: simplexml_load_string():           ^  in E:\WWW\magento_magento\dev\lib\Varien\Simplexml\Config.php on line 510
