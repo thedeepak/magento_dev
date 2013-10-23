@@ -207,3 +207,8 @@
 ## http://developer.yahoo.com/performance/rules.html#etags
 
     #FileETag none
+###########################################
+## For Enabling Error Display
+##http://www.magentocommerce.com/wiki/3_-_store_setup_and_management/configure_magento_error_page#display_errors_on_the_same_page_developer_mode
+
+SetEnv MAGE_IS_DEVELOPER_MODE “” 

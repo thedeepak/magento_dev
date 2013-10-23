@@ -6,6 +6,7 @@
 		<block type="page/template_links" name="top.links"/>
         <block type="customer/form_register" name="customer_form_register" template="customer/form/register.phtml"/>
     </block>
+	</action>
     </helloworld_index_index>
 	<helloworld_index_goodbye>
         <update handle="helloworld_index_index" />

@@ -3,7 +3,7 @@
 {
     protected function _construct()
     {
-        $this->_init('weblog/blogpost', 'blogpost_id');
+        $this->_init('weblog/blogpost');
     }
     
 } 
