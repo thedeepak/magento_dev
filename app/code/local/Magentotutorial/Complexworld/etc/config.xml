@@ -19,6 +19,14 @@
             </entities>
         </complexworld_resource>
     </models>
+    <resources>
+        <complexworld_setup>
+            <setup>
+                <module>Magentotutorial_Complexworld</module>
+                <class>Magentotutorial_Complexworld_Model_Resource_Setup</class>
+            </setup>
+        </complexworld_setup>
+    </resources>
 </global> 
 	<frontend>
         <routers>
