@@ -1,0 +1,6 @@
+# Eclipse Files #
+###################
+.buildpath
+.settings/*
+.project
+/var/cache/*
