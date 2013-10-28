@@ -3,4 +3,8 @@
 .buildpath
 .settings/*
 .project
+<<<<<<< HEAD
 /var/cache/*
+=======
+.var/cache/*
+>>>>>>> 165fa41898d12ee50804df7fec73ca3c733561c4
