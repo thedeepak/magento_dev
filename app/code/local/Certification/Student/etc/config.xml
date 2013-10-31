@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Certification_Student>
+			<version>0.1.0</version>
+		</Certification_Student>
+	</modules>
+	<global>
+        <models>
+            <student>
+                <class>Certification_Student_Model</class>
+                <resourceModel>student_resource</resourceModel>
+            </student>
+            <student_resource>
+                <class>Certification_Student_Model_Resource</class>
+                <entities>
+                    <student>
+                        <table>students</table>
+                    </student>
+                </entities>
+            </student_resource>
+        </models>
+    </global>
+</config>

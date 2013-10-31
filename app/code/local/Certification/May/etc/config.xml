@@ -1,0 +1,29 @@
+ <config>    
+    <modules>
+        <Certification_May>
+            <version>0.1.0</version>
+        </Certification_May>
+    </modules>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <certification_may before="Mage_Adminhtml">Certification_May_Adminhtml</certification_may>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+	<frontend>
+        <routers>
+            <may>
+                <use>standard</use>
+                <args>
+                    <module>Certification_May</module>
+                    <frontName>may</frontName>
+                </args>
+            </may>
+        </routers>  
+    </frontend>
+</config> 

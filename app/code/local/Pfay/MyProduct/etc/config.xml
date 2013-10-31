@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Pfay_MyProduct>
+			<version>1.0.0</version>
+		</Pfay_MyProduct>
+	</modules>
+	<frontend>
+		<routers>
+			<checkout>
+				<args>
+					<modules>
+						<Pfay_Checkout before="Mage_Checkout">Pfay_Checkout</Pfay_Checkout>
+					</modules>
+				</args>
+			</checkout>
+		</routers>
+	</frontend>
+	<models>
+		<customer>
+			<rewrite>
+				<product> Pfay_MyProduct_Model_Customer</product>
+			</rewrite>
+		</customer>
+	</models>
+	<global>
+		<blocks>
+			<catalog>
+				<rewrite>
+					<product_view>
+						Pfay_MyProduct_Block_Catalog_Product_View
+					</product_view>
+				</rewrite>
+			</catalog>
+		</blocks>
+	</global>
+</config>

@@ -1,0 +1,8 @@
+ <config>
+    <modules>
+        <Certification_May>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Certification_May>
+    </modules>
+</config> 

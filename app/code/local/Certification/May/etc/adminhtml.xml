@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <menu>
+        <certification_may>
+            <title>May</title>
+            <sort_order>100</sort_order>
+            <children>
+                <test>
+                    <title>Test</title>
+                    <action>adminhtml/test/index</action>
+                    <sort_order>0</sort_order>
+                </test>
+            </children>
+        </certification_may>
+    </menu>
+</config>

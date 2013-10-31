@@ -1,0 +1,16 @@
+<config>
+	<modules>
+		<Pfay_Test>
+			<active>true</active>
+			<codePool>local</codePool>
+		</Pfay_Test>
+		<Pfay_MyProduct>
+			<active>true</active>
+			<codePool>local</codePool>
+		</Pfay_MyProduct>
+		<Pfay_Ecard>
+			<active>true</active>
+			<codePool>local</codePool>
+		</Pfay_Ecard>
+	</modules>
+</config> 
